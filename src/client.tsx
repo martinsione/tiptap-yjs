@@ -66,7 +66,7 @@ export function Editor(props: { roomId: string }) {
       attributes: {
         class: cn(
           "prose mx-auto flex h-full min-h-screen w-full max-w-screen-md flex-col p-1 p-4 outline-none sm:p-8 md:p-20",
-          "[&_.is-editor-empty]:before:pointer-events-none [&_.is-editor-empty]:before:float-left [&_.is-editor-empty]:before:h-0 [&_.is-editor-empty]:before:text-neutral-400 [&_.is-editor-empty]:before:content-[attr(data-placeholder)]",
+          "[&_.is-empty]:before:pointer-events-none [&_.is-empty]:before:float-left [&_.is-empty]:before:h-0 [&_.is-empty]:before:text-neutral-400 [&_.is-empty]:before:content-[attr(data-placeholder)]",
           "[&_.yjs-caret]:pointer-events-none [&_.yjs-caret]:relative [&_.yjs-caret]:mx-[-1px] [&_.yjs-caret]:break-normal [&_.yjs-caret]:border-neutral-900 [&_.yjs-caret]:border-x",
           "[&_.yjs-label]:absolute [&_.yjs-label]:top-[-1.4em] [&_.yjs-label]:left-[-1px] [&_.yjs-label]:select-none [&_.yjs-label]:whitespace-nowrap [&_.yjs-label]:rounded-sm [&_.yjs-label]:p-0.5 [&_.yjs-label]:font-semibold [&_.yjs-label]:text-neutral-900 [&_.yjs-label]:text-xs",
         ),
